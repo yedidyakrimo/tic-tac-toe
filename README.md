@@ -30,17 +30,6 @@ sudo apt-get install python3-tk  # For Ubuntu/Debian
 ---
 
 ## How to Run 🚀
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/tic-tac-toe.git
-   cd tic-tac-toe
-   ```
-2. Run the game:
-   ```bash
-   python3 main.py
-   ```
-
----
 
 ## Game Modes 🎮
 ### 1. **Player vs Computer**
@@ -49,30 +38,6 @@ sudo apt-get install python3-tk  # For Ubuntu/Debian
 
 ### 2. **Player vs Player**
 - Play with a friend locally on the same computer.
-
----
-
-## Screenshots 🖼️
-### Main Menu:
-![Main Menu](screenshots/main_menu.png)
-
-### Gameplay:
-![Gameplay](screenshots/gameplay.png)
-
----
-
-## Troubleshooting ⚠️
-If you encounter the error:
-```plaintext
-_tkinter.TclError: no display name and no $DISPLAY environment variable
-```
-It means the program is running in a non-GUI environment (like a server or Codespaces). To fix this:
-1. Run the program on a local machine with a display.
-2. Or use `xvfb`:
-   ```bash
-   xvfb-run -a python3 main.py
-   ```
-
 ---
 
 ## Contributing 🤝
